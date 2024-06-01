@@ -10,8 +10,33 @@ body {
 }
 */
 
+@font-face {
+	font-family: "Phantom Sans";
+	src: url("/assets/Phantom_Sans_0.7/Regular.woff") format('woff');
+}
+
+@font-face {
+	font-family: "Phantom Sans";
+	src: url("/assets/Phantom_Sans_0.7/Bold.woff") format('woff');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Phantom Sans";
+	src: url("/assets/Phantom_Sans_0.7/BoldItalic.woff") format('woff');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Phantom Sans";
+	src: url("/assets/Phantom_Sans_0.7/Italic.woff") format('woff');
+	font-style: italic;
+}
+
 body {
 	background-color: white !important;
+	font-family: 'Phantom Sans' !important;
 }
 
 .list-group-item {
