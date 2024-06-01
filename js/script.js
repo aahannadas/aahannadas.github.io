@@ -19,3 +19,5 @@ bs_script = document.createElement('script')
 // 		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
 // 		crossorigin="anonymous"></script>
 // `
+
+document.getElementsByTagName("head")[0].innerHTML += `<script src="/assets/nav.js" defer></script>`
