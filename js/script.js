@@ -20,4 +20,4 @@ bs_script = document.createElement('script')
 // 		crossorigin="anonymous"></script>
 // `
 
-document.getElementsByTagName("head")[0].innerHTML += `<script src="/assets/nav.js" defer></script>`
+// document.getElementsByTagName("head")[0].innerHTML += `<script src="/assets/nav.js" defer></script>`
