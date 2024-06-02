@@ -1,5 +1,5 @@
 body {
-	background-image: linear-gradient(rgba(33, 37, 41), rgba(13, 17, 21))
+	background-image: linear-gradient(to top right, rgba(48, 51, 56), rgba(8, 12, 16), black)
 }
 
 header {
@@ -9,11 +9,27 @@ header {
 
 h1 {
 	font-size: 8rem !important;
+	/* text-shadow: 2px 2px 10px rgba(255, 255, 255, .35); */
+	letter-spacing: 2px;
+}
+
+h1 #typewriter {
 	background: linear-gradient(to right, rgb(67, 124, 205), rgb(69, 214, 202));
+	text-shadow: 3px 3px 10px rgba(255, 255, 255, .35);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	text-shadow: 2px 2px 10px rgba(255, 255, 255, .35);
+}
+
+#cursor {
+	color: gray;
+	animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+	0% { opacity: 100%; }
+	50% { opacity: 0%; }
+	100% { opacity: 100% }
 }
 
 .grass {
@@ -21,10 +37,7 @@ h1 {
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-}
-
-.hero-section {
-	margin-top: 12vh;
+	text-shadow: none;
 }
 
 ul {
@@ -47,6 +60,22 @@ ul {
 
 .qmark {
 	list-style-image: url("/assets/question\ mark.png");
+}
+
+.text-light * {
+	color: rgba(255, 255, 255, .8);
+}
+
+.hero-section {
+	margin-top: 12vh;
+	text-shadow: none;
+	-webkit-animation: hero-section 1s ease-in-out infinite alternate;
+	-moz-animation: hero-section 1s ease-in-out infinite alternate;
+	animation: hero-section 1s ease-in-out infinite alternate;
+}
+
+.glow {
+	text-shadow: 0px 0px 15px rgba(255, 255, 255, .5) !important;
 }
 
 @media all and (max-width: 992px) {
