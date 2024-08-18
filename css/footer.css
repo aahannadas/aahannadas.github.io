@@ -10,7 +10,7 @@ body {
 
 footer {
 	background-color: rgb(30, 32, 37);
-}
+} 
 
 @media all and (max-width: 992px) {
 	.fs-3 {
