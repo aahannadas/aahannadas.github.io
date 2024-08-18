@@ -17,3 +17,8 @@ RewriteRule ^(.*)$ $1.html [NC,L]
 # Reroute any 404 messages to a custom page
 
 ErrorDocument 404 /404.html
+
+//Caching schema
+<FilesMatch "\.(jpg|png|css|js)$">
+Header set Cache-Control "max-age=3600"
+</FilesMatch>

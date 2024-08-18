@@ -10,8 +10,6 @@
 }
 
 .mask {
-	/* background-image: linear-gradient(rgba(30, 33, 36, 0.2), rgba(30, 33, 36, .5), rgba(30, 33, 36, 1)); */
-	/* background-image: linear-gradient(rgba(30, 33, 36, 0.7), rgba(30, 33, 36, .7), rgba(30, 33, 36, .9)); */
 	background-image: linear-gradient(to bottom, rgba(33, 37, 40, 1) 0%, rgba(33, 37, 40, .5) 40%, rgba(33, 37, 40, .5) 50%, rgba(33, 37, 40, 1) 90%);
 }
 
@@ -27,4 +25,19 @@ h1 {
 
 .newSection {
 	margin-top: 7.5rem;
+}
+
+@media all and (max-width: 992px) {
+	.display-2 {
+		font-size: 5rem;
+	}
+
+	.subtext {
+		font-size: 3rem !important;
+	}
+
+	.section1btn {
+		font-size: 2.5em;
+		padding: 1.2vw;
+	}
 }

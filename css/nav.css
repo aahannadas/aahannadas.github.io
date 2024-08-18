@@ -84,6 +84,8 @@
 
 .navbar {
 	z-index: 1000;
+	position: absolute;
+	width: 100vw;
 }
 
 .dropdown-menu {
@@ -98,6 +100,8 @@
 	.navbar-toggler {
 		outline: none !important;
 		border: none;
+		position: absolute;
+		right: 0;
 	}
 
 	.navbar-brand {
